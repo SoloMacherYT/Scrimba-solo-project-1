@@ -1,10 +1,10 @@
 
-
+import profile from "../assets/Profile.avif"
 
 export default function Header(){
     return(<>
     <header>
-        <img src="/src/assets/Profile.avif" alt="A man staring at the screen" />
+        <img src={profile} alt="A man staring at the screen" />
     </header>
         </>)
 }
